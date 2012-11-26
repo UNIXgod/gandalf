@@ -1,4 +1,5 @@
-An h1 header
+Gandalf: rss Wizard
+94|\|D4LPh: r$$ \/\/1Z4RD
 ============
 
 **Gandalf:** *rss* `wizard`
@@ -7,7 +8,7 @@ An h1 header
   * Many thanx to Darren for his assistance
   * This is the first public Ruby Project of mine!
 
-An h2 header
+Be silent. Keep your forked tongue behind your teeth. I did not pass through fire and death to bandy crooked words with a witless worm.
 ------------
 
 todo list:
