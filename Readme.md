@@ -1,5 +1,5 @@
-Gandalf: rss Wizard
 94|\|D4LPh: r$$ \/\/1Z4RD
+Gandalf: rss Wizard
 ============
 
 **Gandalf:** *rss* `wizard`
