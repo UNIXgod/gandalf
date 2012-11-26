@@ -1,132 +1,80 @@
 An h1 header
 ============
 
-Paragraphs are separated by a blank line.
+**Gandalf:** *rss* `wizard`
 
-2nd paragraph. *Italic*, **bold**, `monospace`. Itemized lists
-look like:
-
-  * this one
-  * that one
-  * the other one
-
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
-
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex. "it's all in
-chapters 12--14"). Three dots ... will be converted to an ellipsis.
-
-
+  * This project inspired by forum contest
+  * Many thanx to Darren for his assistance
+  * This is the first public Ruby Project of mine!
 
 An h2 header
 ------------
 
-Here's a numbered list:
+todo list:
 
- 1. first item
- 2. second item
- 3. third item
+ 1. refactor out non binary dependancies
+ 2. remove hardlink
+ 3. provide intelligent interface for multiple feeds
+ 4. create flat file and/or RDB for user prefs and content
+ 5. create tests and further explore internal interface for modularity
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+<pre>
+Gandalf is copyrighted free software by Stu <stu@rubyprogrammer.net>.
+You can redistribute it and/or modify it under either the terms of the
+2-clause BSDL (see the file BSDL), or the conditions below:
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+  1. You may make and give away verbatim copies of the source form of the
+     software without restriction, provided that you duplicate all of the
+     original copyright notices and associated disclaimers.
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+  2. You may modify your copy of the software in any way, provided that
+     you do at least ONE of the following:
 
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
+       a) place your modifications in the Public Domain or otherwise
+          make them Freely Available, such as by posting said
+	  modifications to Usenet or an equivalent medium, or by allowing
+	  the author to include your modifications in the software.
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
+       b) use the modified software only within your corporation or
+          organization.
 
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-~~~
+       c) give non-standard binaries non-standard names, with
+          instructions on where to get the original software distribution.
 
+       d) make other distribution arrangements with the author.
 
+  3. You may distribute the software in object code or binary form,
+     provided that you do at least ONE of the following:
 
-### An h3 header ###
+       a) distribute the binaries and library files of the software,
+	  together with instructions (in the manual page or equivalent)
+	  on where to get the original distribution.
 
-Now a nested list:
+       b) accompany the distribution with the machine-readable source of
+	  the software.
 
- 1. First, get these ingredients:
+       c) give non-standard binaries non-standard names, with
+          instructions on where to get the original software distribution.
 
-      * carrots
-      * celery
-      * lentils
+       d) make other distribution arrangements with the author.
 
- 2. Boil some water.
+  4. You may modify and include the part of the software into any other
+     software (possibly commercial).  But some files in the distribution
+     are not written by the author, so that they are not under these terms.
 
- 3. Dump everything in the pot and follow
-    this algorithm:
+     For the list of those files and their copying conditions, see the
+     file LEGAL.
 
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
+  5. The scripts and library files supplied as input to or produced as 
+     output from the software do not automatically fall under the
+     copyright of the software, but belong to whomever generated them, 
+     and may be sold commercially, and may be aggregated with this
+     software.
 
-    Do not bump wooden spoon or it will fall.
+  6. THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
+     IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+     WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+     PURPOSE.
+</pre>
 
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above). Here's a link to [a
-website](http://foo.bar). Here's a link to a [local
-doc](local-doc.html). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
-
-Tables can look like this:
-
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Here's a definition list:
-
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Alternately, put blank lines in
-between each of the above definition list lines to spread things
-out more.)
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-
-Done.
-
-1f u c4n r34d th1s u r34lly n33d t0 g37 l41d
-
-  int *fortran = &The great thing about Object Oriented code 
-	is that it can make small; 
-		simple problems look like large =>
-	complex ones;
+kthxbye!
